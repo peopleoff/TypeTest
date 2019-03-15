@@ -1,28 +1,38 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TopNav/>
+    <Index/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import TopNav from '@/components/includes/TopNav'
+  import Index from '@/views/Home'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    HelloWorld
+    TopNav,
+    Index
   }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+  padding: 0;
+  margin: 0;
+}
+body{
+    background-color: #343a40;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: white;
+  font-size: 100%;
 }
 </style>

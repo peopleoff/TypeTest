@@ -2,7 +2,7 @@ TypeTest
 ============
 [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/peopleoff/TypeTest) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://peopleoff.github.io/TypeTest/)
 
-This is a node.js chat application powered by SockJS and Express that provides the main functions you'd expect from a chat, such as emojis, private messages, an admin system, etc.
+This is a Javascript application powered by VueJS that provides the main functions you'd expect from a typing test service, such as WPM(Words Per Minute), High Scores, and Different game modes!
 
 ![Chat Preview](https://i.imgur.com/ZcYBIFX.png)
 

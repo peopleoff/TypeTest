@@ -18,15 +18,15 @@ function loadJSON(path, success, error) {
   function getMode(modeID) {
     switch (modeID) {
       case 0:
-        return '/wordLists/commonWords.json'
+        return 'wordLists/commonWords.json'
       case 1:
-        return '/wordLists/easyWords.json'
+        return 'wordLists/easyWords.json'
       case 2:
-        return '/wordLists/mediumWords.json'
+        return 'wordLists/mediumWords.json'
       case 3:
-        return '/wordLists/hardWords.json'
+        return 'wordLists/hardWords.json'
       default:
-        return '/wordLists/commonWords.json'
+        return 'wordLists/commonWords.json'
     }
   }
   

@@ -208,6 +208,8 @@
       WPM: function () {
         return (this.completedWords.length);
       },
+      // eslint expecting return does not register in switch statement
+      // eslint-disable-next-line
       wordSpacing: function () {
         switch (this.modeID) {
           case 0:

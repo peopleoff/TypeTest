@@ -18,9 +18,9 @@ This is a Javascript application powered by VueJS that provides the main functio
 ---
 
 ## Requirements
- - Node.js
- - Npm
- - Vue CLI
+ - [Node.js](https://nodejs.org/en/)
+ - NPM
+ - [Vue CLI](https://cli.vuejs.org/guide/installation.html)
 
 ---
 
@@ -29,10 +29,26 @@ Clone this repo to your desktop and run `npm install` to install all the depende
 
 ---
 
-## Usage
+## Development Use
 After you clone this repo to your desktop, go to its root directory and run `npm install` to install its dependencies.
 
 Once the dependencies are installed, you can run  `npm run serve` to start the application. You will then be able to access it at localhost:8080
+
+---
+## Build For Production
+Once you're ready to build for production you can run `npm run build`.
+
+App is the default build target. In this mode:
+
+index.html with asset and resource hints injection
+
+vendor libraries split into a separate chunk for better caching.
+
+static assets under 4kb are inlined into JavaScript.
+
+static assets in public are copied into output directory.
+
+Your output will be in the /dist folder for your web server.
 
 ---
 

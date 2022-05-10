@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <div class="nav-wrapper teal lighten-1">
-      <a href="#" class="brand-logo">TypeTest</a>
+    <div class="nav-wrapper mint lighten-1">
+      <span class="brand-logo">Anime Type Test</span>
     </div>
   </nav>
 </template>
@@ -14,7 +14,7 @@
 
 <style scoped>
 nav .brand-logo{
-    left: 25%;
+    left: 15%;
 }
   @media only screen and (max-width: 300px){
 nav .brand-logo{

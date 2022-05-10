@@ -18,7 +18,7 @@ function loadJSON(path, success, error) {
   function getMode(modeID) {
     switch (modeID) {
       case 0:
-        return 'wordLists/commonWords.json'
+        return 'wordLists/anime.json'
       case 1:
         return 'wordLists/easyWords.json'
       case 2:
